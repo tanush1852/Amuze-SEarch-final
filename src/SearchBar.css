@@ -1,0 +1,49 @@
+.search-bar-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.search-bar-icon {
+  position: absolute;
+  left: -20%;
+  color: darkgray;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px 10px 10px 45px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.suggestion-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.suggestion-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.suggestion-details {
+  flex: 1;
+}
+
+.suggestion-name {
+  font-weight: bold;
+}
+
+.suggestion-artist {
+  color: gray;
+}
